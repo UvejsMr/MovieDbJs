@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "genre": "Sci-Fi",
+    "rating": 8.8,
+    "poster": "images/inception.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Titanic",
+    "genre": "Romance",
+    "rating": 7.8,
+    "poster": "images/titanic.jpg"
+  },
+  {
+    "id": 3,
+    "title": "The Dark Knight",
+    "genre": "Action",
+    "rating": 9.0,
+    "poster": "images/dark-knight.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Avatar",
+    "genre": "Sci-Fi",
+    "rating": 7.9,
+    "poster": "images/avatar.jpg"
+  },
+  {
+    "id": 5,
+    "title": "The Matrix",
+    "genre": "Sci-Fi",
+    "rating": 8.7,
+    "poster": "images/the-matrix.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Interstellar",
+    "genre": "Sci-Fi",
+    "rating": 8.6,
+    "poster": "images/interstellar.jpg"
+  },
+  {
+    "id": 7,
+    "title": "The Shawshank Redemption",
+    "genre": "Drama",
+    "rating": 9.3,
+    "poster": "images/shawshank.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Gladiator",
+    "genre": "Action",
+    "rating": 8.5,
+    "poster": "images/gladiator.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Joker",
+    "genre": "Drama",
+    "rating": 8.4,
+    "poster": "images/joker.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Forrest Gump",
+    "genre": "Drama",
+    "rating": 8.8,
+    "poster": "images/forrest-gump.jpg"
+  },
+  {
+    "id": 11,
+    "title": "The Godfather",
+    "genre": "Crime",
+    "rating": 9.2,
+    "poster": "images/godfather.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Pulp Fiction",
+    "genre": "Crime",
+    "rating": 8.9,
+    "poster": "images/pulp-fiction.jpg"
+  },
+  {
+    "id": 13,
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "genre": "Fantasy",
+    "rating": 8.8,
+    "poster": "images/lotr-fellowship.jpg"
+  },
+  {
+    "id": 14,
+    "title": "The Lion King",
+    "genre": "Animation",
+    "rating": 8.5,
+    "poster": "images/lion-king.jpg"
+  },
+  {
+    "id": 15,
+    "title": "The Avengers",
+    "genre": "Action",
+    "rating": 8.0,
+    "poster": "images/avengers.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Fight Club",
+    "genre": "Drama",
+    "rating": 8.8,
+    "poster": "images/fight-club.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Star Wars: A New Hope",
+    "genre": "Sci-Fi",
+    "rating": 8.6,
+    "poster": "images/star-wars-a-new-hope.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Schindler's List",
+    "genre": "Biography",
+    "rating": 9.0,
+    "poster": "images/schindlers-list.jpg"
+  },
+  {
+    "id": 19,
+    "title": "The Dark Knight Rises",
+    "genre": "Action",
+    "rating": 8.4,
+    "poster": "images/dark-knight-rises.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Goodfellas",
+    "genre": "Crime",
+    "rating": 8.7,
+    "poster": "images/goodfellas.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Casablanca",
+    "genre": "Romance",
+    "rating": 8.5,
+    "poster": "images/casablanca.jpg"
+  },
+  {
+    "id": 22,
+    "title": "The Silence of the Lambs",
+    "genre": "Thriller",
+    "rating": 8.6,
+    "poster": "images/silence-of-the-lambs.jpg"
+  },
+  {
+    "id": 23,
+    "title": "Saving Private Ryan",
+    "genre": "War",
+    "rating": 8.6,
+    "poster": "images/saving-private-ryan.jpg"
+  },
+  {
+    "id": 24,
+    "title": "The Departed",
+    "genre": "Crime",
+    "rating": 8.5,
+    "poster": "images/departed.jpg"
+  },
+  {
+    "id": 25,
+    "title": "The Prestige",
+    "genre": "Mystery",
+    "rating": 8.5,
+    "poster": "images/prestige.jpg"
+  },
+  {
+    "id": 26,
+    "title": "Memento",
+    "genre": "Mystery",
+    "rating": 8.4,
+    "poster": "images/memento.jpg"
+  },
+  {
+    "id": 27,
+    "title": "Se7en",
+    "genre": "Crime",
+    "rating": 8.6,
+    "poster": "images/se7en.jpg"
+  },
+  {
+    "id": 28,
+    "title": "The Usual Suspects",
+    "genre": "Crime",
+    "rating": 8.5,
+    "poster": "images/usual-suspects.jpg"
+  },
+  {
+    "id": 29,
+    "title": "The Shining",
+    "genre": "Horror",
+    "rating": 8.4,
+    "poster": "images/shining.jpg"
+  },
+  {
+    "id": 30,
+    "title": "Pulp Fiction",
+    "genre": "Crime",
+    "rating": 8.9,
+    "poster": "images/pulp-fiction.jpg"
+  },
+  {
+    "id": 31,
+    "title": "The Green Mile",
+    "genre": "Drama",
+    "rating": 8.6,
+    "poster": "images/green-mile.jpg"
+  },
+  {
+    "id": 32,
+    "title": "Blade Runner 2049",
+    "genre": "Sci-Fi",
+    "rating": 8.0,
+    "poster": "images/blade-runner-2049.jpg"
+  },
+  {
+    "id": 33,
+    "title": "Her",
+    "genre": "Sci-Fi",
+    "rating": 8.0,
+    "poster": "images/her.jpg"
+  },
+  {
+    "id": 34,
+    "title": "Mad Max: Fury Road",
+    "genre": "Action",
+    "rating": 8.1,
+    "poster": "images/mad-max.jpg"
+  },
+  {
+    "id": 35,
+    "title": "The Social Network",
+    "genre": "Biography",
+    "rating": 8.0,
+    "poster": "images/social-network.jpg"
+  },
+  {
+    "id": 36,
+    "title": "The Grand Budapest Hotel",
+    "genre": "Comedy",
+    "rating": 8.1,
+    "poster": "images/grand-budapest-hotel.jpg"
+  },
+  {
+    "id": 37,
+    "title": "Whiplash",
+    "genre": "Drama",
+    "rating": 8.5,
+    "poster": "images/whiplash.jpg"
+  },
+  {
+    "id": 38,
+    "title": "The Revenant",
+    "genre": "Adventure",
+    "rating": 8.0,
+    "poster": "images/revenant.jpg"
+  },
+  {
+    "id": 39,
+    "title": "The Imitation Game",
+    "genre": "Biography",
+    "rating": 8.0,
+    "poster": "images/imitation-game.jpg"
+  },
+  {
+    "id": 40,
+    "title": "Logan",
+    "genre": "Action",
+    "rating": 8.1,
+    "poster": "images/logan.jpg"
+  },
+  {
+    "id": 41,
+    "title": "Deadpool",
+    "genre": "Action",
+    "rating": 8.0,
+    "poster": "images/deadpool.jpg"
+  },
+  {
+    "id": 42,
+    "title": "The Hunger Games",
+    "genre": "Action",
+    "rating": 7.2,
+    "poster": "images/hunger-games.jpg"
+  },
+  {
+    "id": 43,
+    "title": "The Conjuring",
+    "genre": "Horror",
+    "rating": 7.5,
+    "poster": "images/conjuring.jpg"
+  },
+  {
+    "id": 44,
+    "title": "It",
+    "genre": "Horror",
+    "rating": 7.3,
+    "poster": "images/it.jpg"
+  },
+  {
+    "id": 45,
+    "title": "A Beautiful Mind",
+    "genre": "Biography",
+    "rating": 8.2,
+    "poster": "images/beautiful-mind.jpg"
+  },
+  {
+    "id": 46,
+    "title": "Jurassic Park",
+    "genre": "Adventure",
+    "rating": 8.1,
+    "poster": "images/jurassic-park.jpg"
+  },
+  {
+    "id": 47,
+    "title": "Django Unchained",
+    "genre": "Western",
+    "rating": 8.4,
+    "poster": "images/django-unchained.jpg"
+  },
+  {
+    "id": 48,
+    "title": "Inglourious Basterds",
+    "genre": "War",
+    "rating": 8.3,
+    "poster": "images/inglourious-basterds.jpg"
+  },
+  {
+    "id": 49,
+    "title": "The Wolf of Wall Street",
+    "genre": "Biography",
+    "rating": 8.2,
+    "poster": "images/wolf-of-wall-street.jpg"
+  },
+  {
+    "id": 50,
+    "title": "Fast and Furious",
+    "genre": "Action",
+    "rating": 7.8,
+    "poster": "images/fast.jpg"
+  }
+]
