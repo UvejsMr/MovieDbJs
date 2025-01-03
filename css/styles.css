@@ -128,26 +128,80 @@ body.dark-mode .pagination .page-link {
 
 .card-img-top {
   object-fit: contain; /* Ensures the image is fully visible */
-  height: 300px; /* Adjust to a suitable height */
-  width: 100%; /* Ensures the image spans the full width of the card */
-  background-color: #f8f9fa; /* Optional: Add a background color for padding around the image */
+  height: 300px;
+  width: 100%;
+  background-color: transparent;
 }
 
-/* Ensure the navbar items are aligned to the right */
 .navbar-nav.ml-auto {
   margin-left: auto;
 }
 
-/* Style the logout button to make it red */
 #logoutButton .nav-link.btn-danger {
-  background-color: #dc3545; /* Bootstrap red color */
+  background-color: #dc3545;
   color: white;
-  border-radius: 5px; /* Optional: adds rounded corners */
-  padding: 5px 15px; /* Optional: adds some padding */
+  border-radius: 5px;
+  padding: 5px 15px;
   text-align: center;
 }
 
 #logoutButton .nav-link.btn-danger:hover {
-  background-color: #c82333; /* Darker red on hover */
+  background-color: #c82333;
   color: white;
+}
+
+/* Styles for light mode / dark mode */
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.navbar.light-mode {
+  background-color: #f8f9fa;
+  color: #000000;
+}
+
+.navbar.light-mode .nav-link {
+  color: #000000;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.navbar.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.navbar.dark-mode .nav-link {
+  color: #ffffff;
+}
+
+.navbar.light-mode .navbar-brand {
+  color: #000000 !important;
+}
+
+.navbar.dark-mode .navbar-brand {
+  color: #ffffff !important;
+}
+
+body.dark-mode input::placeholder {
+  color: #ffffff; /* White placeholder text for dark mode */
+}
+
+/* Light Mode */
+body.light-mode #themeToggle {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #000000;
+}
+
+/* Dark Mode */
+body.dark-mode #themeToggle {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #ffffff;
 }
