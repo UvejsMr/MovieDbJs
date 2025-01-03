@@ -98,7 +98,7 @@
     <script src="js/admin.js"></script>
     <script>
       window.onload = () => {
-        const user = JSON.parse(localStorage.getItem("user"));
+        const user = JSON.parse(localStorage.getItem("loggedInUser"));
 
         if (!user || user.role !== "admin") {
           alert("You do not have access to this page.");
@@ -106,12 +106,6 @@
         } else {
           displayAdminMovies();
         }
-      };
-
-      const logout = () => {
-        localStorage.removeItem("user");
-        alert("You have been logged out.");
-        window.location.href = "index.html";
       };
     </script>
   </body>
