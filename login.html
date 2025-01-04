@@ -17,16 +17,53 @@
         <div class="form-group">
           <label for="email">Email</label>
           <input type="email" id="email" class="form-control" required />
+          <small id="emailError" class="form-text text-danger"></small>
         </div>
         <div class="form-group">
           <label for="password">Password</label>
           <input type="password" id="password" class="form-control" required />
+          <small id="passwordError" class="form-text text-danger"></small>
         </div>
+
         <button type="submit" class="btn btn-primary">Login</button>
       </form>
     </main>
 
     <script src="js/auth.js"></script>
     <script src="js/theme.js"></script>
+    <script>
+      document
+        .getElementById("loginForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          const email = document.getElementById("email").value.trim();
+          const password = document.getElementById("password").value.trim();
+          const emailError = document.getElementById("emailError");
+          const passwordError = document.getElementById("passwordError");
+
+          let isValid = true;
+
+          emailError.textContent = "";
+          passwordError.textContent = "";
+
+          if (!email) {
+            emailError.textContent = "Email is required.";
+            isValid = false;
+          } else if (!/\S+@\S+\.\S+/.test(email)) {
+            emailError.textContent = "Invalid email format.";
+            isValid = false;
+          }
+
+          if (!password) {
+            passwordError.textContent = "Password is required.";
+            isValid = false;
+          } else if (password.length < 6) {
+            passwordError.textContent =
+              "Password must be at least 6 characters.";
+            isValid = false;
+          }
+        });
+    </script>
   </body>
 </html>

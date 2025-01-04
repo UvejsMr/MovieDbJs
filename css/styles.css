@@ -18,6 +18,26 @@ header {
   margin: 0 auto;
 }
 
+/* Resposive device styles */
+@media (max-width: 768px) {
+  #searchInput,
+  #filterSelect,
+  #sortSelect {
+    width: 100%;
+  }
+
+  #filterSelect,
+  #sortSelect {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 16px;
+  }
+}
+
 /* Navbar styles */
 .navbar-brand {
   font-size: 1.5rem;
@@ -204,4 +224,17 @@ body.dark-mode #themeToggle {
   background-color: #ffffff;
   color: #000000;
   border: 1px solid #ffffff;
+}
+
+/* Form validation */
+.text-danger {
+  color: #dc3545;
+}
+
+.form-control.is-invalid {
+  border-color: #dc3545;
+}
+
+.form-control.is-valid {
+  border-color: #28a745;
 }
